@@ -1,12 +1,12 @@
 Tomodachi – Arduino Virtual Pet
-📖 Overview
+Overview
 
 Tomodachi is a Tamagotchi-style virtual pet built with an Arduino.
 It uses an LCD screen, RGB LED, buzzer, button, and RTC (Real-Time Clock) module to simulate a digital pet that can eat, sleep, and react to the environment.
 
 The pet must be fed daily, responds to light/dark cycles for sleep, and can disappear if neglected too long. It features playful animations, tunes, and memory persistence through EEPROM.
 
-🛠️ Hardware Requirements
+Hardware Requirements
 
 Arduino Mega 2560 (or compatible board)
 
@@ -24,7 +24,7 @@ Light sensor (photoresistor) (A0 analog pin)
 
 EEPROM (onboard for feeding time storage)
 
-⚙️ Features
+Features
 
 Feeding system
 
@@ -54,11 +54,11 @@ Memory persistence
 
 Feeding times saved in EEPROM so data survives resets.
 
-📂 File Structure
+File Structure
 
 Tomodachi.ino – Main Arduino sketch (handles LCD, RTC, feeding, animations, sleep/wake cycle, EEPROM storage, buzzer tunes).
 
-🔧 Pin Connections
+Pin Connections
 Component	Pin
 LCD RS	12
 LCD E	11
