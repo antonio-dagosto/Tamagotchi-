@@ -1,4 +1,4 @@
-Tomodachi – Arduino Virtual Pet
+Tamadachi – Arduino Virtual Pet
 Overview
 
 Tomodachi is a Tamagotchi-style virtual pet built with an Arduino.
